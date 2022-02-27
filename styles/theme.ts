@@ -4,7 +4,7 @@ const theme: ITheme = {
   colors: {
     black: "#000000",
     white: "#FFFFFF",
-    blue: "#22afdc"
+    blue: "#14e4ff"
   }
 };
 
