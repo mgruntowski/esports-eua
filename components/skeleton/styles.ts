@@ -4,6 +4,11 @@ type SectionProps = {
   background?: string;
 };
 
+type SectionContentProps = {
+  "data-floating-title"?: string;
+  floatingTitleColor?: string;
+};
+
 type ColProps = {
   flex?: number;
   maxWidth?: string;
@@ -29,7 +34,7 @@ export const Section = styled.section<SectionProps>`
   background: ${({ background }) => background};
 `;
 
-export const SectionContent = styled.div`
+export const SectionContent = styled.div<SectionContentProps>`
   position: relative;
 
   flex: 1 1 100%;
@@ -52,7 +57,8 @@ export const SectionContent = styled.div`
     line-height: 20rem;
     text-transform: uppercase;
     text-align: right;
-    -webkit-text-stroke: 0.5px ${({ theme }) => theme.colors.white}40;
+    -webkit-text-stroke: 0.5px
+      ${({ theme, floatingTitleColor = theme.colors.white }) => floatingTitleColor}40;
     -webkit-text-fill-color: transparent;
   }
 `;

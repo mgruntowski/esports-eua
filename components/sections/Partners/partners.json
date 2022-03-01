@@ -1,0 +1,24 @@
+[
+  {
+    "name": "HyperX",
+    "image": "/images/partners/hyperx.png"
+  },
+  {
+    "name": "Redragon",
+    "image": "/images/partners/redragon.png",
+    "width": "100px"
+  },
+  {
+    "name": "Razer",
+    "image": "/images/partners/razer.png"
+  },
+  {
+    "name": "Valorant",
+    "image": "/images/partners/valorant.png",
+    "width": "100px"
+  },
+  {
+    "name": "Logitech",
+    "image": "/images/partners/logitech.png"
+  }
+]
