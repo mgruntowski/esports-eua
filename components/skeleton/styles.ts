@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+type SectionProps = {
+  background?: string;
+};
+
 type ColProps = {
   flex?: number;
   maxWidth?: string;
@@ -12,17 +16,45 @@ type RowProps = {
   gap?: string;
 };
 
-export const Section = styled.section`
+export const Section = styled.section<SectionProps>`
+  position: relative;
+
+  padding: 5.6rem 0;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 
   background-color: ${({ theme }) => theme.colors.black};
+  background: ${({ background }) => background};
 `;
 
 export const SectionContent = styled.div`
+  position: relative;
+
+  flex: 1 1 100%;
   max-width: 1100px;
+
+  &::before {
+    content: attr(data-floating-title);
+
+    position: absolute;
+    top: -5.6rem;
+    right: 0;
+
+    max-width: 800px;
+    display: block;
+
+    font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+      Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20rem;
+    font-weight: 400;
+    line-height: 20rem;
+    text-transform: uppercase;
+    text-align: right;
+    -webkit-text-stroke: 0.5px ${({ theme }) => theme.colors.white}40;
+    -webkit-text-fill-color: transparent;
+  }
 `;
 
 export const Row = styled.div<RowProps>`

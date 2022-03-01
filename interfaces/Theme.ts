@@ -3,5 +3,6 @@ export default interface ITheme {
     black: string;
     white: string;
     blue: string;
+    lightGray: string;
   };
 }

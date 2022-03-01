@@ -22,6 +22,8 @@ const GlobalStyle = createGlobalStyle<{ theme: ITheme }>`
   }
 
   h1 {
+    margin: 0 0 2rem 0;
+    
     font-size: 4.8rem;
   }
 
@@ -30,6 +32,8 @@ const GlobalStyle = createGlobalStyle<{ theme: ITheme }>`
   }
 
   p, span {
+    margin: 0;
+    
     font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2.0rem;
     font-weight: 300;

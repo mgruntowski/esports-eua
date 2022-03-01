@@ -1,5 +1,13 @@
 import { Menu } from "components/menus";
-import { AboutUs } from "components/sections";
+import {
+  AboutUs,
+  FAQ,
+  Footer,
+  HowItWorks,
+  Partners,
+  Projects,
+  Services
+} from "components/sections";
 
 import type { NextPage } from "next";
 
@@ -8,6 +16,12 @@ const Home: NextPage = () => {
     <>
       <Menu />
       <AboutUs />
+      <Services />
+      <Projects />
+      <Partners />
+      <HowItWorks />
+      <FAQ />
+      <Footer />
     </>
   );
 };

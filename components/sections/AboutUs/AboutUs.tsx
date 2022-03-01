@@ -7,9 +7,10 @@ export default function AboutUs(): JSX.Element {
       <SectionContent>
         <Row>
           <Col>
-            <SectionTitle>A agência de intercâmbio esportivo que você buscava</SectionTitle>
+            <SectionTitle>Quem somos</SectionTitle>
 
             <SectionText>
+              Agência de intercâmbio esportivo. <br />
               Assessoramos os clientes em busca da melhor oportunidade de estudo aliado a jogar
               competitivamente, ajudando em todo o processo rumo ao Estados Unidos.
             </SectionText>
