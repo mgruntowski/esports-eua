@@ -5,8 +5,9 @@ import type ITheme from "interfaces/Theme";
 const GlobalStyle = createGlobalStyle<{ theme: ITheme }>`
   html {
     font-size: 10px;
-    
+
     scroll-behavior: smooth;
+    font-synthesis: none
   }
 
   body {
@@ -21,6 +22,7 @@ const GlobalStyle = createGlobalStyle<{ theme: ITheme }>`
 
     font-family: "Oswald", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: uppercase;
+    font-weight: 700;
   }
 
   h1 {
