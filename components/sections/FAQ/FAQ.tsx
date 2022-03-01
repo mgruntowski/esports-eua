@@ -18,7 +18,7 @@ export default function FAQ(): JSX.Element {
   }
 
   return (
-    <Section background="#222222">
+    <Section id="perguntas-frequentes" background="#222222">
       <SectionContent data-floating-title="FAQ">
         <Row>
           <SectionTitle>Perguntas Frequentes</SectionTitle>

@@ -9,7 +9,7 @@ import * as Styled from "./styles";
 
 export default function Partners(): JSX.Element {
   return (
-    <Section background="white">
+    <Section id="parceiros" background="white">
       <SectionContent data-floating-title="Partners" floatingTitleColor="#000000">
         <Row>
           <SectionTitle>Parceiros</SectionTitle>

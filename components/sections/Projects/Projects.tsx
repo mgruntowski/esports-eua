@@ -3,7 +3,7 @@ import { SectionText, SectionTitle } from "components/typography";
 
 export default function Projects(): JSX.Element {
   return (
-    <Section>
+    <Section id="projetos">
       <SectionContent>
         <Row>
           <Col>

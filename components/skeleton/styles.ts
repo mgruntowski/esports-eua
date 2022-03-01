@@ -24,7 +24,7 @@ type RowProps = {
 export const Section = styled.section<SectionProps>`
   position: relative;
 
-  padding: 5.6rem 0;
+  padding: 4.8rem 0;
   width: 100%;
   display: flex;
   align-items: center;

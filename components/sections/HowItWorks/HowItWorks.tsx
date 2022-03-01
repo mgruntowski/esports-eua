@@ -3,7 +3,7 @@ import { SectionTitle } from "components/typography";
 
 export default function HowItWorks(): JSX.Element {
   return (
-    <Section>
+    <Section id="como-funciona">
       <SectionContent>
         <Row>
           <Col>

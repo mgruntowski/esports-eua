@@ -19,6 +19,8 @@ export const MenuItems = styled.ul`
 `;
 
 export const Item = styled.li`
+  position: relative;
+
   color: ${({ theme }) => theme.colors.white};
 
   font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -32,5 +34,24 @@ export const Item = styled.li`
 
   &:hover {
     color: ${({ theme }) => theme.colors.blue};
+
+    &::after {
+      width: 50%;
+    }
+  }
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+
+    width: 0;
+    height: 2px;
+
+    background-color: ${({ theme }) => theme.colors.blue};
+
+    transition: width 0.25s;
   }
 `;

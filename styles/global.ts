@@ -5,6 +5,8 @@ import type ITheme from "interfaces/Theme";
 const GlobalStyle = createGlobalStyle<{ theme: ITheme }>`
   html {
     font-size: 10px;
+    
+    scroll-behavior: smooth;
   }
 
   body {

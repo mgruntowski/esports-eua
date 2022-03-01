@@ -3,7 +3,7 @@ import { HighlightText, SectionText, SectionTitle, SectionTitle2 } from "compone
 
 export default function AboutUs(): JSX.Element {
   return (
-    <Section>
+    <Section id="quem-somos">
       <SectionContent>
         <Row>
           <Col>

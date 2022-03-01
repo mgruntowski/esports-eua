@@ -3,7 +3,7 @@ import { SectionText, SectionTitle } from "components/typography";
 
 export default function Services(): JSX.Element {
   return (
-    <Section>
+    <Section id="servicos">
       <SectionContent>
         <Row>
           <Col>
