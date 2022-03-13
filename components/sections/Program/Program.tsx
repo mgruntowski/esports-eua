@@ -8,7 +8,7 @@ import * as Styled from "./styles";
 
 export default function Program(): JSX.Element {
   return (
-    <Section>
+    <Section padding="5.6rem 0 9.6rem 0">
       <SectionContent>
         <Styled.ProgramTitle>
           Só a <HighlightText>Nexus</HighlightText> garante o melhor para você em...

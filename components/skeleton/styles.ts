@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 type SectionProps = {
   background?: string;
+  padding?: string;
 };
 
 type SectionContentProps = {
@@ -24,7 +25,7 @@ type RowProps = {
 export const Section = styled.section<SectionProps>`
   position: relative;
 
-  padding: 4.8rem 0;
+  padding: ${({ padding = "4.8rem 0" }) => padding};
   width: 100%;
   display: flex;
   align-items: center;
