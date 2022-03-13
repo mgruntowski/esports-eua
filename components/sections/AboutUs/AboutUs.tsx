@@ -1,5 +1,5 @@
 import { Col, Row, Section, SectionContent } from "components/skeleton";
-import { HighlightText, SectionText, SectionTitle, SectionTitle2 } from "components/typography";
+import { HighlightText, SectionText, SectionTitle } from "components/typography";
 
 export default function AboutUs(): JSX.Element {
   return (
@@ -10,16 +10,15 @@ export default function AboutUs(): JSX.Element {
             <SectionTitle>Quem somos</SectionTitle>
 
             <SectionText>
-              Agência de intercâmbio esportivo. <br />
-              Assessoramos os clientes em busca da melhor oportunidade de estudo aliado a jogar
-              competitivamente, ajudando em todo o processo rumo ao Estados Unidos.
+              Somos uma agência de intercâmbio esportivo. Assessoramos jovens players em busca da
+              melhor oportunidade de estudo (graduação e mestrado) aliado a jogar competitivamente,
+              ajudando em todo o processo rumo ao Estados Unidos.
             </SectionText>
 
-            <SectionTitle2>Equipe</SectionTitle2>
-
             <SectionText>
-              <HighlightText>Felipe Milanez Brugnari</HighlightText> e{" "}
-              <HighlightText>João Franciso Delgado</HighlightText>
+              <HighlightText>
+                Seja descoberto por um coach e ganhe uma proposta para competir em alto nível!
+              </HighlightText>
             </SectionText>
           </Col>
           <Col></Col>

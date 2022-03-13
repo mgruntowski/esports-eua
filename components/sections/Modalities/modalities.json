@@ -1,0 +1,46 @@
+[
+  {
+    "name": "League of Legends",
+    "image": "/images/modalities/league-of-legends.png"
+  },
+  {
+    "name": "Counter-Strike: Global Offensive",
+    "image": "/images/modalities/csgo.png"
+  },
+  {
+    "name": "Valorant",
+    "image": "/images/modalities/valorant.png"
+  },
+  {
+    "name": "Rainbow Six Siege",
+    "image": "/images/modalities/rainbow-six.png"
+  },
+  {
+    "name": "Fifa",
+    "image": "/images/modalities/fifa.png"
+  },
+  {
+    "name": "Apex Legends",
+    "image": "/images/modalities/apex.png"
+  },
+  {
+    "name": "Call of Duty",
+    "image": "/images/modalities/call-of-duty.png"
+  },
+  {
+    "name": "Rocket League",
+    "image": "/images/modalities/rocket-league.png"
+  },
+  {
+    "name": "Overwatch",
+    "image": "/images/modalities/overwatch.png"
+  },
+  {
+    "name": "Fortnite",
+    "image": "/images/modalities/fortnite.png"
+  },
+  {
+    "name": "HearthStone",
+    "image": "/images/modalities/hearthstone.png"
+  }
+]

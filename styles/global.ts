@@ -42,6 +42,10 @@ const GlobalStyle = createGlobalStyle<{ theme: ITheme }>`
     font-size: 2.0rem;
     font-weight: 300;
   }
+
+  p {
+    line-height: 2.8rem;
+  }
 `;
 
 export default GlobalStyle;

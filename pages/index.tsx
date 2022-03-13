@@ -4,6 +4,7 @@ import {
   FAQ,
   Footer,
   HowItWorks,
+  Modalities,
   Partners,
   Projects,
   Services
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
     <>
       <Menu />
       <AboutUs />
+      <Modalities />
       <Services />
       <Projects />
       <Partners />
