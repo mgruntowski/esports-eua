@@ -6,6 +6,7 @@ import {
   HowItWorks,
   Modalities,
   Partners,
+  Program,
   Projects,
   Services
 } from "components/sections";
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Menu />
       <AboutUs />
       <Modalities />
+      <Program />
       <Services />
       <Projects />
       <Partners />

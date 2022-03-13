@@ -28,7 +28,8 @@ export const CarouselWrapper = styled.div`
 
     width: 64px;
 
-    background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    background: ${({ theme }) =>
+      `linear-gradient(to right, ${theme.colors.black} 0%, ${theme.colors.black}00 100%)`};
   }
 
   &::after {

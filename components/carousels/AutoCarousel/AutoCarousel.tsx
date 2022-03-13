@@ -1,7 +1,8 @@
 import Image from "next/image";
-import * as Styled from "./styles";
 
 import type { AutoCarouselProps } from "./types";
+
+import * as Styled from "./styles";
 
 export default function AutoCarousel({ data }: AutoCarouselProps): JSX.Element {
   return (

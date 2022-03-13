@@ -8,6 +8,7 @@ import questions from "./questions.json";
 
 import { mdiPlus } from "@mdi/js";
 
+import theme from "styles/theme";
 import * as Styled from "./styles";
 
 export default function FAQ(): JSX.Element {
@@ -18,7 +19,7 @@ export default function FAQ(): JSX.Element {
   }
 
   return (
-    <Section id="perguntas-frequentes" background="#222222">
+    <Section id="perguntas-frequentes" background={theme.colors.darkGray}>
       <SectionContent data-floating-title="FAQ">
         <Row>
           <SectionTitle>Perguntas Frequentes</SectionTitle>

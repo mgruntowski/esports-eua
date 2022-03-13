@@ -1,3 +1,3 @@
-import { SectionTitle, SectionText, SectionTitle2, HighlightText } from "./styles";
+import { SectionTitle, SectionSubtitle, SectionText, SectionTitle2, HighlightText } from "./styles";
 
-export { SectionTitle, SectionText, SectionTitle2, HighlightText };
+export { SectionTitle, SectionSubtitle, SectionText, SectionTitle2, HighlightText };

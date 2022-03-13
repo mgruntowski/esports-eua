@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle<{ theme: ITheme }>`
     color: ${({ theme }) => theme.colors.white};
   }
 
-  h1, h2 {
+  h1, h2, h3 {
     color: ${({ theme }) => theme.colors.blue};
 
     font-family: "Oswald", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -33,6 +33,14 @@ const GlobalStyle = createGlobalStyle<{ theme: ITheme }>`
 
   h2 {
     font-size: 3.2rem;
+  }
+
+  h3 {
+    margin: 0;
+
+    color: ${({ theme }) => theme.colors.white};
+
+    font-size: 2.4rem;
   }
 
   p, span {

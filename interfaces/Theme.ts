@@ -4,5 +4,6 @@ export default interface ITheme {
     white: string;
     blue: string;
     lightGray: string;
+    darkGray: string;
   };
 }
