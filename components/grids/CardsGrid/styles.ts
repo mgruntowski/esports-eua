@@ -20,7 +20,7 @@ export const GridBox = styled.div`
   box-sizing: border-box;
 
   background-color: ${({ theme }) => theme.colors.darkGray};
-  box-shadow: 0 5px 20px rgb(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 1);
 
   svg {
     position: absolute;
@@ -28,7 +28,7 @@ export const GridBox = styled.div`
     bottom: -50px;
     transform: translateX(-50%);
 
-    filter: ${({ theme }) => `drop-shadow(0px 0px 8px ${theme.colors.black})`};
+    filter: ${({ theme }) => `drop-shadow(2px 2px 8px ${theme.colors.black})`};
 
     path {
       fill: ${({ theme }) => theme.colors.blue} !important;

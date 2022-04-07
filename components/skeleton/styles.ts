@@ -8,6 +8,7 @@ type SectionProps = {
 type SectionContentProps = {
   "data-floating-title"?: string;
   floatingTitleColor?: string;
+  fullWidth?: boolean;
 };
 
 type ColProps = {
@@ -38,8 +39,9 @@ export const Section = styled.section<SectionProps>`
 export const SectionContent = styled.div<SectionContentProps>`
   position: relative;
 
+  width: clamp();
   flex: 1 1 100%;
-  max-width: 1100px;
+  max-width: ${({ fullWidth }) => (fullWidth ? "clamp(400px, 100%, 2048px)" : "1100px")};
 
   &::before {
     content: attr(data-floating-title);

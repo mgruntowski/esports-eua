@@ -1,5 +1,5 @@
 import { CardsGrid } from "components/grids";
-import { Section, SectionContent } from "components/skeleton";
+import { SectionContent } from "components/skeleton";
 import { HighlightText } from "components/typography";
 
 import program from "./data";
@@ -8,7 +8,7 @@ import * as Styled from "./styles";
 
 export default function Program(): JSX.Element {
   return (
-    <Section padding="5.6rem 0 9.6rem 0">
+    <Styled.CustomSection>
       <SectionContent>
         <Styled.ProgramTitle>
           Só a <HighlightText>Nexus</HighlightText> garante o melhor para você em...
@@ -16,6 +16,6 @@ export default function Program(): JSX.Element {
 
         <CardsGrid data={program} />
       </SectionContent>
-    </Section>
+    </Styled.CustomSection>
   );
 }

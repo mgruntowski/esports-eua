@@ -5,8 +5,8 @@ import modalities from "./modalities.json";
 
 export default function Modalities(): JSX.Element {
   return (
-    <Section padding="0">
-      <SectionContent>
+    <Section padding="3.0rem 0">
+      <SectionContent fullWidth>
         <Row>
           <AutoCarousel data={modalities} />
         </Row>

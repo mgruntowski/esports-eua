@@ -17,8 +17,8 @@ const Home: NextPage = () => {
     <>
       <Menu />
       <AboutUs />
-      <Modalities />
       <Program />
+      <Modalities />
       <HowItWorks />
       <Projects />
       <Partners />

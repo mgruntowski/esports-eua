@@ -16,7 +16,7 @@ export default function HowItWorks(): JSX.Element {
   }, [inView]);
 
   return (
-    <Section id="como-funciona">
+    <Section id="como-funciona" padding="10rem 0">
       <SectionContent data-floating-title="HOW IT WORKS?" floatingTitleColor={theme.colors.gray}>
         <Row justifyContent="center">
           <SectionTitle>Como funciona?</SectionTitle>

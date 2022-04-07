@@ -46,7 +46,7 @@ export const CarouselContainer = styled.div`
   justify-content: space-between;
   gap: 56px;
 
-  animation: ${Scroll} 30s linear infinite;
+  animation: ${Scroll} 60s linear infinite;
 `;
 
 export const DataContainer = styled.div`
