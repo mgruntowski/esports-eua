@@ -7,8 +7,7 @@ import {
   Modalities,
   Partners,
   Program,
-  Projects,
-  Services
+  Projects
 } from "components/sections";
 
 import type { NextPage } from "next";
@@ -20,10 +19,9 @@ const Home: NextPage = () => {
       <AboutUs />
       <Modalities />
       <Program />
-      <Services />
+      <HowItWorks />
       <Projects />
       <Partners />
-      <HowItWorks />
       <FAQ />
       <Footer />
     </>

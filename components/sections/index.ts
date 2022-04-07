@@ -6,6 +6,5 @@ import Modalities from "./Modalities/Modalities";
 import Partners from "./Partners/Partners";
 import Program from "./Program/Program";
 import Projects from "./Projects/Projects";
-import Services from "./Services/Services";
 
-export { AboutUs, FAQ, Footer, HowItWorks, Modalities, Partners, Program, Projects, Services };
+export { AboutUs, FAQ, Footer, HowItWorks, Modalities, Partners, Program, Projects };
