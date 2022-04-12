@@ -3,6 +3,7 @@ import {
   AboutUs,
   FAQ,
   Footer,
+  Gallery,
   HowItWorks,
   Modalities,
   Partners,
@@ -20,8 +21,9 @@ const Home: NextPage = () => {
       <Program />
       <Modalities />
       <HowItWorks />
+      <Gallery />
       <Projects />
-      <Partners />
+      {/* <Partners /> */}
       <FAQ />
       <Footer />
     </>

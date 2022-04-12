@@ -41,7 +41,7 @@ export const Step = styled.li`
     border-radius: 50%;
     display: block;
 
-    background-color: ${({ theme }) => theme.colors.gray};
+    background-color: ${({ theme }) => theme.colors.darkGray};
     color: ${({ theme }) => theme.colors.black};
 
     font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
@@ -84,7 +84,7 @@ export const StepsContainer = styled.ol<StepsContainerProps>`
     left: -265px;
     transform: rotate(90deg);
 
-    color: ${({ theme }) => theme.colors.gray};
+    color: ${({ theme }) => theme.colors.darkGray};
 
     font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -138,7 +138,7 @@ export const BrazilMap = styled(BrazilSvg)<MapProps>`
   left: 0;
   transform: translateX(-30%);
 
-  fill: ${({ theme }) => theme.colors.gray};
+  fill: ${({ theme }) => theme.colors.darkGray};
 
   ${({ $shouldAnimate }) =>
     $shouldAnimate &&
@@ -162,7 +162,7 @@ export const UsaMap = styled(UsaSvg)<MapProps>`
   left: 0;
   transform: translateX(-30%);
 
-  fill: ${({ theme }) => theme.colors.gray};
+  fill: ${({ theme }) => theme.colors.darkGray};
 
   ${({ $shouldAnimate }) =>
     $shouldAnimate &&

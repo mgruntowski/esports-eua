@@ -6,7 +6,7 @@ const theme: ITheme = {
     white: "#FFFFFF",
     blue: "#14e4ff",
     lightGray: "#c2c2c2",
-    gray: "#555555",
+    gray: "#777777",
     darkGray: "#222222"
   }
 };
