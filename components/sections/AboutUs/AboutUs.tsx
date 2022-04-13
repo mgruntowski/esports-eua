@@ -1,14 +1,23 @@
 import { Col, Row, Section, SectionContent } from "components/skeleton";
-import { HighlightText, SectionText, SectionTitle } from "components/typography";
+import { HighlightText, SectionText } from "components/typography";
+
+import * as Styled from "./styles";
 
 export default function AboutUs(): JSX.Element {
   return (
-    <Section id="quem-somos">
+    <Section
+      id="quem-somos"
+      background="linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(18,18,18,1) 100%)"
+      padding="10rem 0"
+    >
       <SectionContent>
-        <Row>
+        <Row alignItems="center" gap="18%">
+          <Col flex={0.5}>
+            <Styled.CustomTitle>
+              A assessoria que você precisa para competir no topo
+            </Styled.CustomTitle>
+          </Col>
           <Col>
-            <SectionTitle>Quem somos</SectionTitle>
-
             <SectionText>
               Somos uma agência de intercâmbio esportivo. Assessoramos jovens players em busca da
               melhor oportunidade de estudo (graduação e mestrado) aliado a jogar competitivamente,
@@ -21,7 +30,6 @@ export default function AboutUs(): JSX.Element {
               </HighlightText>
             </SectionText>
           </Col>
-          <Col></Col>
         </Row>
       </SectionContent>
     </Section>

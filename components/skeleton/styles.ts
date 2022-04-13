@@ -14,6 +14,7 @@ type SectionContentProps = {
 type ColProps = {
   flex?: number;
   maxWidth?: string;
+  padding?: string;
 };
 
 type RowProps = {
@@ -84,5 +85,7 @@ export const Col = styled.div<ColProps>`
   flex: ${({ flex = 1 }) => flex};
   width: 100%;
   max-width: ${({ maxWidth = "unset" }) => maxWidth};
+  padding: ${({ padding = "0" }) => padding};
+  box-sizing: border-box;
   display: block;
 `;

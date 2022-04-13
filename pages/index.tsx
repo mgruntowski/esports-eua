@@ -4,9 +4,9 @@ import {
   FAQ,
   Footer,
   Gallery,
+  Hero,
   HowItWorks,
   Modalities,
-  Partners,
   Program,
   Projects
 } from "components/sections";
@@ -17,9 +17,10 @@ const Home: NextPage = () => {
   return (
     <>
       <Menu />
+      <Hero />
       <AboutUs />
-      <Program />
       <Modalities />
+      <Program />
       <HowItWorks />
       <Gallery />
       <Projects />

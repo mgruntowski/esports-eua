@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-export const SectionTitle = styled.h1``;
+export const SectionTitle = styled.h1`
+  line-height: 6rem;
+  letter-spacing: 0.1rem;
+`;
 
 export const SectionSubtitle = styled.p`
   font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
