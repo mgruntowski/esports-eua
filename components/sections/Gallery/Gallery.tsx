@@ -10,7 +10,7 @@ export default function Gallery(): JSX.Element {
   const [isVideoVisible, setIsVideoVisible] = useState(false);
 
   return (
-    <Section>
+    <Section padding="0 0 16rem 0">
       <SectionContent>
         <Styled.VideoHeader>
           <h1>Onde você irá estudar e competir</h1>
