@@ -7,8 +7,7 @@ import {
   Hero,
   HowItWorks,
   Modalities,
-  Program,
-  Projects
+  Program
 } from "components/sections";
 
 import type { NextPage } from "next";
@@ -23,7 +22,7 @@ const Home: NextPage = () => {
       <Program />
       <HowItWorks />
       <Gallery />
-      <Projects />
+      {/* <Projects /> */}
       {/* <Partners /> */}
       <FAQ />
       <Footer />
