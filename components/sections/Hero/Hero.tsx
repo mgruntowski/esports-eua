@@ -1,5 +1,5 @@
-import { Col, Row, Section, SectionContent } from "components/skeleton";
-import { HighlightText, SectionText, SectionTitle } from "components/typography";
+import { Col, Row, SectionContent } from "components/skeleton";
+import { SectionText } from "components/typography";
 
 import * as Styled from "./styles";
 
